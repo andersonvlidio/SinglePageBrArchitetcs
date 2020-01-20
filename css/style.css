@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana, sans-serif;
+}
+main{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    
+
+}
+header nav{
+    width: 100%;
+    display: flex;
+    height: 52px;
+    background-color: #fff;
+    position: fixed;
+    letter-spacing: 4px;
+    font-size: 15px;
+    z-index: 3;
+    box-shadow: 1px -5px 16px -2px #000;
+}
+header nav #logo{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    
+   
+}
+
+header nav #logo li{
+    list-style: none;
+    
+}
+header nav #logo li a{
+    text-decoration: none;
+    padding: 8px 16px;
+    color: #000;
+    margin: 17px;
+}
+header nav #logo li a:hover{
+    background-color: #ccc;
+}
+header nav #menu{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+header nav #menu li{
+    list-style: none;
+    
+}
+header nav #menu li a{
+    text-decoration: none;
+    padding: 8px 16px;
+    align-items: center;
+    color: #000;
+    margin-right: 17px;
+}
+header nav #menu li a:hover{
+    background-color: #ccc;
+}
+
+
+
+/* alterar isso aqui */
+section {
+    padding-top: 46px;
+    position: relative;
+    width: 100%;
+}
+section h1{
+    position: absolute ;
+    left: 51%;
+    top: 54%;
+    bottom: 50%;
+    right: 50%;
+    display: flex;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.7;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    
+}
+section h1 span{
+    background-color: #000;
+    margin: 8px;
+    padding:16px ;
+    font-weight: bold;
+}
+section img{
+    width: 100%;
+    
+}
+/* alterar isso aqui */
+
+
+.subtitulo{
+    margin: 16px 0 0;
+    padding:16px 33px 0;
+}
+.subtitulo div h3{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+.subtitulo div p{
+    font-size: 14px;
+    padding-right: 5px;
+    
+}
+.subtitulo div hr{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 33px;
+
+}
+
+.card div{
+    width: 24%;
+    position: relative;
+    padding: 4px;
+}
+.card div h6{
+    position:absolute ;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    z-index: 2;
+    font-weight: 400;
+}
+.card div img{
+    filter: grayscale(75%);
+}
+
+
+#container-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 31px;
+}
+#container-info div{
+    padding: 6px;
+    
+}
+#container-info div img{
+    width: 100%;
+    filter: grayscale(75%);
+}
+#container-info div h3{
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 25px;
+}
+#container-info div h5{
+    font-weight: 400;
+    color: #555;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+#container-info div p{
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+#container-info div button{
+    width: 100%;
+    padding:8px;
+    font-size: 15px;
+}
+#container-info div button:hover{
+    background-color: #777;
+}
+
+form{
+    display: block;
+    margin: 0 33px;
+}
+form input{
+    width: 100%;
+    border-bottom: 1px solid #777;
+    padding: 8px 16px;
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+form button{
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    margin: 16px 0 20px;
+    font-size: 15px;
+}
+
+#mapa{
+    width: 100%;
+    padding:10px 33px;
+}
+#mapa img{
+    width: 100%;
+    filter: grayscale(0%);
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p a {
+    color: #fff;
+}
